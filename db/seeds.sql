@@ -1,5 +1,5 @@
-INSERT INTO burgers (burger_name) VALUES ("The Doh! Nut Burger");
-INSERT INTO burgers (burger_name) VALUES ("Whiskey King Burger");
-INSERT INTO burgers (burger_name) VALUES ("Le Pigeon Burger");
-INSERT INTO burgers (burger_name) VALUES ("Double Animal Style");
-INSERT INTO burgers (burger_name) VALUES ("Black Label Burger");
+-- Select the burgers_db
+USE burgers_db;
+-- Insert new rows of data.
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("hamburger", false), ("cheeseburger", false), ("tofu burger", false);

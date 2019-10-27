@@ -1,0 +1,36 @@
+.jumbotron {
+    background-image: url("/images/bg_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1, h2 {
+    color: white;
+}
+
+#newburger {
+    border-radius: 5px;
+}
+
+#color-override {
+    color: #fff;
+}
+
+#lefthead {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#eatbutton, #trashbutton {
+    float: right;
+}
+
+#righthead {
+    background-color: #f0ad4e;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
