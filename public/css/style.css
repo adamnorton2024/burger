@@ -5,8 +5,16 @@
     background-size: cover;
 }
 
-h1, h2 {
+h1, h3, h2 {
     color: white;
+}
+
+.panel-body {
+    padding: 2em;
+}
+
+#addburger {
+    background-color: forestgreen;
 }
 
 #newburger {
@@ -18,7 +26,7 @@ h1, h2 {
 }
 
 #lefthead {
-    background-color: #5cb85c;
+    background-color: forestgreen;
     color: white;
     text-align: center;
     font-size: 1.2em;
@@ -29,7 +37,7 @@ h1, h2 {
 }
 
 #righthead {
-    background-color: #f0ad4e;
+    background-color: red;
     color: white;
     text-align: center;
     font-size: 1.2em;
