@@ -1,12 +1,31 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .jumbotron {
     background-image: url("/images/bg_banner.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right center;
     background-size: cover;
 }
 
-h1, h3, h2 {
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h3, h2 {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.text-big{
+    color: yellow;
+    font-size: 7em;
+    text-shadow: 2px 2px black;
 }
 
 .panel-body {
@@ -21,7 +40,7 @@ h1, h3, h2 {
     border-radius: 5px;
 }
 
-#color-override {
+label {
     color: #fff;
 }
 
@@ -37,7 +56,7 @@ h1, h3, h2 {
 }
 
 #righthead {
-    background-color: red;
+    background-color: crimson;
     color: white;
     text-align: center;
     font-size: 1.2em;
